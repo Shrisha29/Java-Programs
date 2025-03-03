@@ -1,0 +1,19 @@
+// number if it ends with 7 and is divisible by 7 is a buzz Number
+import java.util.Scanner;
+class BuzzNumber 
+{
+	public static void main(String[] args) 
+	{
+		Scanner sc = new Scanner(System.in);
+		System.out.print("Enter the Number:");
+		int num = sc.nextInt();
+		 if (num%10==7 || num%7==0)
+		 {
+			 System.out.println(num + " is Buzz number");
+		 }
+		 else
+		{
+			 System.out.println(num + " is not buzz Number");
+		}
+	}
+}
